@@ -4,7 +4,7 @@
     "author": "Deborah Kurata",
     "description": "Package for the Acme Product Management sample application",
     "scripts": {
-        "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+        "start": "tsc && concurrently \"tsc -w\" \"lite-server -c bs-config.json \" ",
         "tsc": "tsc",
         "tsc:w": "tsc -w",
         "lint": "tslint ./app/**/*.ts -t verbose",
