@@ -1,7 +1,7 @@
 {
     "name": "product-management",
     "version": "1.0.0",
-    "author": "Deborah Kurata",
+    "author": "Aakash",
     "description": "Package for the Acme Product Management sample application",
     "scripts": {
         "start": "tsc && concurrently \"tsc -w\" \"lite-server -c bs-config.json \" ",

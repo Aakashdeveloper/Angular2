@@ -9,13 +9,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
+        this.pageTitle = 'This is product management';
     }
     return AppComponent;
 }());
 AppComponent = __decorate([
     core_1.Component({
         selector: 'pm-app',
-        template: '<h1>Angular2: Getting Started</h1>'
+        template: "\n\t\t<div> \n\t\t\t<h1>{{pageTitle}}</h1>\n\t\t\t<div>First Component</div>\n\t\t</div>\n\t"
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
