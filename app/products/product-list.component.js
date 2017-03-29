@@ -10,6 +10,14 @@ var core_1 = require("@angular/core");
 var ProductListComponent = (function () {
     function ProductListComponent() {
         this.pageTitle = 'Product List';
+        this.products = [
+            {
+                "productid": 2,
+                "code": 316551,
+                "Available": 10,
+                "price": 30
+            }
+        ];
     }
     return ProductListComponent;
 }());
