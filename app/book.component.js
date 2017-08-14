@@ -7,16 +7,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
+var BookComponent = (function () {
+    function BookComponent() {
     }
-    return AppComponent;
+    return BookComponent;
 }());
-AppComponent = __decorate([
+BookComponent = __decorate([
     core_1.Component({
-        selector: 'pm-app',
-        template: "<div>\n\t\t<h1>This is ang2</h1>\n\t\t<pm-product></pm-product>\n\t\t<pm-book></pm-book>\n\t</div>"
+        selector: 'pm-book',
+        template: "<div class=\"jumbotron\">\n\t\t<h1>This is Book</h1>\n\t</div>"
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], BookComponent);
+exports.BookComponent = BookComponent;
+//# sourceMappingURL=book.component.js.map

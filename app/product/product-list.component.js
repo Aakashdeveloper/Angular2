@@ -9,21 +9,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var ProductListComponent = (function () {
     function ProductListComponent() {
-        this.pageTitle = 'Product List';
-        this.products = [
-            {
-                "productid": 2,
-                "code": 316551,
-                "Available": 10,
-                "price": 30
-            }
-        ];
     }
     return ProductListComponent;
 }());
 ProductListComponent = __decorate([
     core_1.Component({
-        selector: 'pm-products',
+        selector: 'pm-product',
         templateUrl: 'app/products/product-list.component.html'
     })
 ], ProductListComponent);

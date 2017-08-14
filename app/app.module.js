@@ -9,8 +9,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var forms_1 = require("@angular/forms");
+var book_component_1 = require("./book.component");
 var app_component_1 = require("./app.component");
-var product_list_component_1 = require("./products/product-list.component");
+var module_1 = require();
 var AppModule = (function () {
     function AppModule() {
     }
@@ -24,7 +25,8 @@ AppModule = __decorate([
         ],
         declarations: [
             app_component_1.AppComponent,
-            product_list_component_1.ProductListComponent
+            book_component_1.BookComponent,
+            module_1.ProductListComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })
